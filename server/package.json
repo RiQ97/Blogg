@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Ritik Raj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.11.1",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiQ97/Blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RiQ97/Blog/issues"
+  },
+  "homepage": "https://github.com/RiQ97/Blog#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
